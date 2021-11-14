@@ -1,0 +1,33 @@
+.header{
+  display: flex;
+  width:100%;
+  position: fixed;
+  justify-content: space-between;
+
+  /*Animation*/
+
+  transition-timing-function: ease-in;
+  transition:all 0.5s;
+}
+
+
+.header_usericon{
+  position:relative;
+  padding:40px;
+  object-fit: contain;
+  width:60px;
+  height: 40px;
+}
+
+.header_logo{
+  position: relative;
+  top:40px;
+  padding: 0px 20px;
+  height:40px;
+
+}
+
+.header_black{
+  background-color: black;
+  height:100px;
+}
